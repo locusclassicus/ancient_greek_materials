@@ -1,7 +1,7 @@
 bookdown::gitbook:
   css: style.css
   config:
-    share: NULL
+    sharing: null
     toc:
       before: |
         <li><a href="./">Ancient Greek Materials</a></li>

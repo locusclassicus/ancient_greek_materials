@@ -23,3 +23,8 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
+об-этом-сайте
+урок-1
+кто-из-этих-философов-писал-по-гречески
+section
+введение

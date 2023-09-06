@@ -12,3 +12,14 @@ pre {
 pre code {
   white-space: inherit;
 }
+.ask {
+  padding: 1em 1em 1em 4em;
+  color: black;
+  background: #F2EDDC 5px center/3em no-repeat;
+  border-radius: 10px;
+  border-color: #C4A69B;
+  border-width: thick;
+}
+.question {
+  background-image: url("https://static.thenounproject.com/png/1156194-200.png");
+}
