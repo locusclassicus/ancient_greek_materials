@@ -1,26 +1,26 @@
+#  Вводный урок
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, results = "asis", message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 ```{r}
 library(checkdown)
 ```
 
-# Kephalaion 1
-
 Знакомство с древнегреческим языком можно начать с небольшого [видео](https://youtu.be/WxeLgEn0jiw?si=6EVFI3kmaBPkVz4_). Его сделали в 2020 г. студенты ВШЭ Сафия Курамшина и Влад Клещев специально для проекта Antibarbari. После просмотра -- ответьте на вопросы.
 
 </br>
 
-::: {.ask .question}
+:::{.ask}
 **Вопрос 1**. Линейное письмо Б использовалось для записи текстов на древнегреческом языке.
 :::
 
 ```{r}
-check_question(answer = "TRUE", 
+check_question(answer = "да", 
                type = "select",
                button_label = "Проверить",
-               options = c("TRUE", "FALSE", "памагитя"),
+               options = c("да", "нет", "оно не расшифровано"),
                right = " καλῶς λέγεις 🤩",
                wrong = " οὐδαμῶς 🙁")
 ```
@@ -36,10 +36,10 @@ check_question(answer = "TRUE",
 :::
 
 ```{r}
-check_question(answer = "FALSE", 
+check_question(answer = "неверно", 
                type = "select",
                button_label = "Проверить",
-               options = c("TRUE", "FALSE"),
+               options = c("верно", "неверно"),
                right = " καλῶς λέγεις 🤩",
                wrong = " οὐδαμῶς 🙁")
 ```
@@ -57,10 +57,10 @@ check_hint("_Все эпические поэмы сочинялись на го
 :::
 
 ```{r}
-check_question(answer = "FALSE", 
+check_question(answer = "ничего подобного", 
                type = "select",
                button_label = "Проверить",
-               options = c("TRUE", "FALSE"),
+               options = c("все так", "ничего подобного"),
                right = " καλῶς λέγεις 🤩",
                wrong = " οὐδαμῶς 🙁")
 ```
@@ -72,10 +72,10 @@ check_question(answer = "FALSE",
 :::
 
 ```{r}
-check_question(answer = "FALSE", 
+check_question(answer = "а вот и нет", 
                type = "select",
                button_label = "Проверить",
-               options = c("TRUE", "FALSE"),
+               options = c("именно так", "а вот и нет"),
                right = " καλῶς λέγεις 🤩",
                wrong = " οὐδαμῶς 🙁")
 ```

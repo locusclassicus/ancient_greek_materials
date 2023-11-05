@@ -1,8 +1,11 @@
 bookdown::gitbook:
+  number_sections: false
   css: style.css
   config:
     sharing: null
+    number_sections: false
     toc:
+      collapse: section 
       before: |
         <li><a href="./">Ancient Greek Materials</a></li>
       after: |

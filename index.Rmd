@@ -1,7 +1,5 @@
 --- 
-title: "Древнегреческий язык 2023"
-author: "Locus Classicus"
-date: "`r Sys.Date()`"
+title: "Древнегреческий язык"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -10,5 +8,6 @@ link-citations: yes
 github-repo: https://github.com/locusclassicus/ancient_greek_materials
 ---
 
+# Об этом сайте
 
-Это подборка материалов по курсу "Древнегреческий язык" (2023/2024).
+Упражнения к учебнику "Древнегреческий язык: Начальный курс" (Часть 1). Составитель: К.Е. Прокопов. Редактор: О.В. Алиева. Над сайтом работали: Д. Гуревич, В. Пятаков, А. Лебзак. 

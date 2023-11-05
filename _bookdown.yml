@@ -1,5 +1,5 @@
 delete_merged_file: true
-language:
+language: 
   ui:
-    chapter_name: "Урок "
+    chapter_name: "Κεφάλαιον "
 output_dir: "docs"
