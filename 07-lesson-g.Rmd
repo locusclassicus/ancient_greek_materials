@@ -134,7 +134,7 @@ word6 <- check_question (answer = "ἐχαρίζου",
 **Что на картинках (слева направо)? Выберите подходящую подпись.**
 
 
-![](https://drive.google.com/uc?id=1zoIMtTSVlJyDeQxjfsqiTUiaTulpf7Q-){width="70%"}
+![](https://github.com/locusclassicus/ancient_greek_materials/blob/main/images/minotaurus.png?raw=true)
 
 
 ```{r}
@@ -171,10 +171,6 @@ pic3 <- check_question (answer = "Ὁ Θησεὺς εὖ µάχεται τῷ �
 **Изображение 2**. `r pic2`
 </br>
 **Изображение 3**. `r pic3`
-
-
-
-
 
 
 

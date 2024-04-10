@@ -3,11 +3,10 @@ bookdown::gitbook:
   css: style.css
   config:
     sharing: null
-    number_sections: false
     toc:
       collapse: section 
       before: |
-        <li><a href="./">Ancient Greek Materials</a></li>
+        <li><a href="./">Древнегреческий язык</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
